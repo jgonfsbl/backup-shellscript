@@ -17,7 +17,7 @@
 ##     mydocs : /home/user/documents
 ##
 
-## VARIALES ###################################################################
+## VARIABLES ##################################################################
 
 # Configuration file location.
 CONFIG=/opt/backup_nas.txt
