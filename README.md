@@ -37,6 +37,7 @@ Finally, add the following example lines to your crontab by doing this:
 ``` 
 
 ## Potential improvements
+  - Encrypt backup files with an RSA key pair.
   - Use this shell script with automation tools like Ansible/Chef/Puppet/Salt/Terraform.
   - Include this shell script in the CI/CD development pipeline.
   - Use SCP or SFTP, subsystems of SSH, to move the backup files once created to a mountpoint not previously mounted.
