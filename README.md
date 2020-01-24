@@ -9,7 +9,7 @@ Among other functionalities, it allows to configure controlled behavior related 
 ## Backup configuration file format
 Configuration file, pretty simple but must look like something like this:
 ``` 
-program_name_you_like : path
+name_you_like : path
 ``` 
 
 A real configuration file could look similar to this one:
