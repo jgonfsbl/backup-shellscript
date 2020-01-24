@@ -10,7 +10,7 @@
 ## 
 ## Configuration file format:
 ##
-##     program_name_you_like : path
+##     name_you_like : path
 ##
 ## Example:
 ##
