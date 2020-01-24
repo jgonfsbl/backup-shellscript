@@ -43,3 +43,4 @@ Finally, add the following example lines to your crontab by doing this:
   - Use SCP or SFTP, subsystems of SSH, to move the backup files once created to a mountpoint not previously mounted.
   - Implement incremental backups.
   - Explore deduplication.
+  - Improve potential error controls. 
