@@ -35,3 +35,8 @@ Finally, add the following example lines to your crontab by doing this:
 ```
 0 5 * * * /usr/local/bin/backup.sh >/dev/null 2>&1
 ``` 
+
+## Potential improvements
+  - use SCP or SFTP, subsystems of SSH, to move the backup files once created to a non-local mountpoint
+  - implement incremental backups
+  - explore deduplication
