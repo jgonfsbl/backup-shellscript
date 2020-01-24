@@ -23,8 +23,13 @@ configs : /etc
 Ideally, this script should run fom the system scheduler, that is as a cron task. 
 
 ### Installation on the server/computer
-Copy the file named "backup.sh" to the path __/usr/local/bin__. Most surely this is part of your $PATH variable, that defines from where executable files can be invoked. To ensure it is, simply verify the $PATH variable from a shell echoing it doing ```echo $PATH``` command on a terminal window. 
+Copy the file named "backup.sh" to the path __/usr/local/bin__. Most surely this is part of your $PATH variable, that defines from where executable files can be invoked. To ensure it is, simply verify the $PATH variable. In order to do it, from a terminal windows with a shell opened try echoing the $PATH variable typing ```echo $PATH```. If you see __/usr/local/bin__ in the command exit then you are OK to go. Otherwise, you need to edit your __.bashrc__ file, which is placed in your home folder, and add this line at the bottom of the file:
 
+```
+export PATH=/usr/local/bin:$PATH
+``` 
+
+### Setup on the server/computer
 Once the file is copied to the destionation folder mentioned before, give the file execution permission by issuing ```chmod 755 /usr/local/bin/backup.sh``` from the same terminal window. 
 
 Finally, add the following example lines to your crontab by doing this:
