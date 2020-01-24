@@ -37,6 +37,8 @@ Finally, add the following example lines to your crontab by doing this:
 ``` 
 
 ## Potential improvements
-  - use SCP or SFTP, subsystems of SSH, to move the backup files once created to a non-local mountpoint
-  - implement incremental backups
-  - explore deduplication
+  - Use this shell script with automation tools like Ansible/Chef/Puppet/Salt/Terraform.
+  - Include this shell script in the CI/CD development pipeline.
+  - use SCP or SFTP, subsystems of SSH, to move the backup files once created to a mountpoint not previously mounted.
+  - implement incremental backups.
+  - explore deduplication.
