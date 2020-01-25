@@ -54,7 +54,7 @@ done
 
 cd $BKPDIR
 
-# Task 2: Expurgate backups with creation date beyond retention period
+# Task 2: Expurgate backups created beyond the retention period
 for i in $LPROG
 do
     LFICH=($i*)
