@@ -39,6 +39,8 @@ PRET=7
 ##
 
 LPROG=$(cat $CONFIG | awk '{ print $1 }')
+[ ! -d "$TMPDIR" ] && mkdir -p "$TMPDIR"
+[ ! -d "$BKPDIR" ] && mkdir -p "$BKPDIR"
 
 # Task 1: Perform backup itself
 for i in $LPROG
