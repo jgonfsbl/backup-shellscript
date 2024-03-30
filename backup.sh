@@ -3,7 +3,7 @@
 ## SCRIPT FOR SIMPLE YET PERSONALIZED BACKUPS
 ##
 ## Version 2.0, January 24, 2020
-## by EA1HET, Jonathan GONZALEZ (j@0x30.io)
+## by EA1HET, Jonathan GONZALEZ (jgonf@safebytelabs.com)
 ##
 ## Dependecies:
 ##     - bzip2: provides a simple yet powerful backup compression solution
